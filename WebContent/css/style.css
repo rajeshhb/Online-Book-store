@@ -1,0 +1,64 @@
+.nav{
+	background-color: black;
+	overflow: hidden;
+}
+
+.nav a{
+	color: #e22b07;
+	font-family: cursive;
+    float: right;		
+    padding: 10px 5px 13px 5px;
+    text-decoration: none;
+    margin-right: 3px;
+}
+
+.nav a.active {
+	background-color: #e22b07;
+	color:white;
+}
+
+.nav a:hover {
+	background-color: #e22b07;
+	color:white;
+}
+body{
+	margin:0;
+	background-image: url("../images/book.png");
+	background-size: 100%;
+	background-position-y: 45px;
+    background-repeat: no-repeat;
+}
+.indexh1{
+	color: #e22b07;
+}
+
+table input[type="text"],input[type="email"],input[type="number"],input[type="password"],select{
+	height: 32px;
+	width:120%;
+	border: 2px solid red;
+    border-radius: 7px;
+}
+table input[type="radio"]{
+	height: 32px;
+	width:12%;
+	border: 2px solid red;
+    border-radius: 7px;
+}
+
+td textarea {
+	height: 50px;
+	border: 2px solid red;
+    border-radius: 7px;
+    width:120%;
+}
+table input[type="submit"]{
+	background-color: coral;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 30px;
+    
+}
+table td{
+	padding: 7px;
+	text-align: end;
+}

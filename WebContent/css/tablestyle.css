@@ -1,0 +1,54 @@
+.mytable{
+	border-collapse: collapse;		
+}
+
+.mytable th{
+	border: 1px solid black;
+	padding: 20px;
+	background-color: darkcyan;
+    color: white;
+	font-family: cursive;
+}
+
+.mytable td{
+	border: 1px solid black;
+	padding: 20px;
+	text-align: center;
+}
+
+.updatebtn{
+	background-color: lightgreen;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.updatebtn:hover{
+	background-color: black;
+    color: white;
+}
+
+.deletebtn{
+	background-color: orangered;;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.deletebtn:hover{
+	background-color: black;
+    color: white;
+}
+
+.buybtn{
+	background-color: lightslategrey;;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.buybtn:hover{
+	background-color: black;
+    color: white;
+}
+
